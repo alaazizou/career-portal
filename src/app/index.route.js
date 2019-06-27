@@ -30,6 +30,26 @@ function routerConfig($stateProvider, $urlRouterProvider) {
                     return deferred.promise;
                 }
             }
+        })
+        .state('employeur', {
+            url: '/employeur',
+            templateUrl: 'app/pages/employeur.html'
+        })
+        .state('candidat', {
+            url: '/candidat',
+            templateUrl: 'app/pages/candidat.html'
+        })
+        .state('contact', {
+            url: '/contact',
+            templateUrl: 'app/pages/contact.html'
+        })
+        .state('programme', {
+            url: '/programme',
+            templateUrl: 'app/pages/programme.html'
+        })
+        .state('employeurDisponible', {
+            url: '/employeurDisponible',
+            templateUrl: 'app/pages/emploisDisponible.html'
         });
 
     $urlRouterProvider.otherwise('/jobs');

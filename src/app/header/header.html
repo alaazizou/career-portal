@@ -1,12 +1,71 @@
 <header class="app">
-    <button class="toggle-filters" name="filters-menu" data-ng-click="header.toggleFilters()">
-        <i class="bhi-search-menu open"></i>
-        <i class="bhi-times close"></i>
-        <span class="badge" data-ng-show="header.SearchService.searchParams.category.length + header.SearchService.searchParams.location.length > 0">{{header.SearchService.searchParams.category.length + header.SearchService.searchParams.location.length}}</span>
-    </button>
-    <button class="go-back" name="over-arrow-back" data-ng-click="header.goBack()">
-        <i class="bhi-arrow-left"></i>
-    </button>
+    <nav class="navbar navbar-transparent navbar-absolute">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://www.itwebjob.com"><img src="assets\img\IT-WEB-JOB_niv-de-gris.gif" alt="..." style="
+    width: 250;
+    margin-top: -120;
+"></a>
+            </div>
 
-    <label>{{::header.configuration.companyName}}</label>
+            <div class="collapse navbar-collapse" id="navigation-example">
+                <ul class="nav navbar-nav navbar-center">
+                    <li>
+                        <a href="index.html">
+                            Acceuil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/employeurDisponible">
+                            Emplois disponible
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/employeur">
+                            Employeurs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/candidat">
+                            Candidats
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/programme">
+                            Programme de reférencement
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#/contact">
+                            Nous contacter
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="https://twitter.com/CreativeTim">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/CreativeTim">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/CreativeTimOfficial">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>

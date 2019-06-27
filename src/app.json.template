@@ -9,20 +9,20 @@
         "rtf",
         "odt"
     ],
-    "companyName": "[ COMPANY NAME HERE ]",
+    "companyName": "ITwebJobs",
     "defaultLocale": "en-US",
     "supportedLocales": [
         "en-US",
         "fr-FR"
     ],
     "minUploadSize": 4096,
-    "maxRelatedJobs": 5,
+    "maxRelatedJobs": 2,
     "maxUploadSize": 5242880,
     "service": {
         "batchSize": 500,
-        "corpToken": "[ CORP TOKEN HERE ]",
+        "corpToken": "5IK2QS",
         "port": null,
-        "swimlane": "[ SWIMLANE HERE ]"
+        "swimlane": 41
     },
     "additionalJobCriteria": {
         "field": "[ FILTER FIELD HERE ]",

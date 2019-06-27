@@ -1,4 +1,44 @@
-<section class="job-list">
+<div class="header-2">
+        
+    
+       
+        <div class="page-header header-filter" style="background-image: url('assets-theme/img/examples/office2.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                        <h1 class="title"> You should work with us!</h1>
+                        <h4>Now you have no excuses, it's time to surprise your clients, your competitors, and why not, the world. You probably won't have a better chance to show off all your potential if it's not by designing a website for your own agency or web studio.</h4>
+                    </div>
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="card card-raised card-form-horizontal">
+                            <div class="card-content">
+                                <form method="" action="">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group is-empty">
+                                                <input type="text" value="" placeholder="Titre de poste de travail, Mots clés, Tags, Etc…    " class="form-control">
+                                            <span class="material-input"></span><span class="material-input"></span></div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group is-empty">
+                                                <input type="email" value="" placeholder="Ville, Province, Code postal   " class="form-control">
+                                            <span class="material-input"></span><span class="material-input"></span></div>
+                                        </div>
+                                        
+                                        <div class="col-md-4">
+                                            <button type="button" class="btn btn-primary btn-block">Rechercher</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<section class="container job-list">
+        <span class="text-muted">{{trans.txnDate | date:'yyyy-MM-dd HH:mm:ss Z' }}</span>
     <!-- LIST HEADER -->
     <h4 data-ng-if="!list.SearchService.helper.isSearching && list.SearchService.currentListData.length">{{'list.jobListHeading' | i18n}}</h4>
     <!-- JOBS CONTAINER -->

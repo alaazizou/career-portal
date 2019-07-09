@@ -48,8 +48,10 @@ function routerConfig($stateProvider, $urlRouterProvider) {
             templateUrl: 'app/pages/programme.html'
         })
         .state('employeurDisponible', {
-            url: '/employeurDisponible',
-            templateUrl: 'app/pages/emploisDisponible.html'
+            url: '/emplois',
+            templateUrl: 'app/list/list.html',
+            controller: 'JobListController',
+            controllerAs: 'list'
         });
 
     $urlRouterProvider.otherwise('/jobs');
